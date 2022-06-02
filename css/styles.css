@@ -1,4 +1,19 @@
 /*--INDEX--*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 :root {
   --brand-color: #2196f3;
   --background-color: #2196f3;
@@ -10,6 +25,34 @@ body {
   color: var(--text-color);
 }
 /*--Header--*/
+.container-1 {
+  width: 1200px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu {
+  display:flex;
+  align-items: center;
+}
+
+.item { 
+  padding: 0px 46px;
+}
+.webstudio {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  
+}
+.list {
+  display: flex;
+  align-items: center;
+}
+.list-item {
+   padding-left: 50px;
+  }
 .webstudio {
   font-family: Raleway;
   font-weight: 700;
